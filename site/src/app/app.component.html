@@ -1,0 +1,47 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div id="container" style="text-align:center">
+	<div id="title_container" >
+		<div id="link_bar" class="stay_inline">
+			<nav>
+				<a routerLink="/about">ABOUT</a><br>
+				<a routerLink="/stories">STORIES</a><br>
+				<a routerLink="/research">RESEARCH</a><br>
+				<!-- <a routerLink="/photos">PHOTOS</a><br> -->
+				<!-- <a routerLink="/team">TEAM</a><br> -->
+				<a routerLink="/apps">APPS</a>
+			</nav>
+
+		</div>
+		<div class="stay_inline">
+		 <h1 >
+		   Plural Heritages of Istanbul:
+		 </h1>
+		 <h2>
+		 	the Case of the Land Walls
+		 </h2>
+		 <!-- <h1>{{lang}}</h1> -->
+
+		 </div>
+
+		 <div id="language_chooser">
+		 	<button (click)="onClickEN()">EN</button>
+		 	<button (click)="onClickTR()">TR</button>
+		 </div>
+		 
+	</div>
+
+
+	<router-outlet></router-outlet>
+
+	<div id="logos">
+		<img src= "assets/images/logos/ncl_logo.jpg" /><br>
+		<img src= "assets/images/logos/ahrc_logo.png" />
+
+	</div> 
+   <!-- <app-videos></app-videos> -->
+
+    <!-- <app-about [childMessage]="parentMessage"></app-about> -->
+  
+</div>
+
+ 

@@ -1,0 +1,45 @@
+<mat-tab-group md-stretch-tabs="always" >
+	<mat-tab label="TOOLKITS">
+		<br>
+		<p>Our project has produced a series of practical toolkits for heritage professionals, municipalities, NGOs and community stakeholders. They are visible below or downloadable from the PDF link.</p>
+		<br>
+		<div id= "tags" style="margin: 0 auto; width:70%">
+	      <div  *ngFor="let pdf of PDFS ;  let i=index" class="stay_inline " (click)="setCurrentPDF(i)" > 
+	       <div class="tifdf_word tag" > {{pdf.title.toUpperCase()}} </div> 
+	       <!-- {{word.word.toUpperCase()}} -->
+	     </div>
+	     <br>
+	     <p *ngIf="showPDFs" >Download the PDF <a  href="{{PDFS[currentPDF].url}}" download>here</a></p>
+		<pdf-viewer *ngIf="showPDFs" src="{{PDFS[currentPDF].url}}"></pdf-viewer>
+		<!-- <div id="link_bar" class="stay_inline">
+			<nav>
+				<a routerLink="./toolkit1">DIFFERENT EXPERIENCES OF PLACES AND PASTS</a><br>
+
+			</nav>
+
+		</div>
+		<div style='position:relative; top:3%;width:100%;height:1000px'>
+		<router-outlet ></router-outlet> -->
+	</div>
+	</mat-tab>
+	<mat-tab label="PUBLICATIONS">
+		<br><br>
+		<!-- GTRData -->
+		<!-- <div  *ngFor="let item of GTRData ;  let i=index" > -->
+			<div style="text-align: left;">
+			<div *ngIf='isObject(GTRData)'>
+				<div style='font-weight: bold' *ngIf='isObject(GTRData)'>{{GTRData.title + ', '+getDateFromTimeStamp(GTRData.datePublished)}} </div>
+				<div *ngIf='isObject(GTRData)'>{{GTRData.author}}</div>
+				<!-- <div *ngIf='isObject(GTRData)'>{{getDateFromTimeStamp(GTRData.datePublished)}}</div> -->
+				<div *ngIf='isObject(GTRData)'>{{GTRData.journalTitle}} . {{GTRData.issue}}</div>
+				
+				<div *ngIf='isObject(GTRData)'>{{GTRData.publicationUrl}}</div>
+			</div>
+		</div>
+			<!-- </div>  -->
+		</mat-tab>
+		<mat-tab label="RESEARCH METHODS">
+
+		</mat-tab>
+		
+	</mat-tab-group>

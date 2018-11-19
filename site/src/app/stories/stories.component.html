@@ -1,0 +1,97 @@
+
+<mat-tab-group md-stretch-tabs="always" >
+  <mat-tab label="SEARCH">
+    <h2>search for words in our co-production videos</h2>
+    <br>
+    <br>
+    <label id="searchArea">search the videos:
+      <input #myInput [(ngModel)]="searchterm" (ngModelChange)="navigate($event)" >
+    </label>
+    <br>
+    <br>
+
+
+
+    <!-- <app-video-holder></app-video-holder> -->
+    <div id= "tags" style="margin: 0 auto; width:70%">
+      <div  *ngFor="let word of tfidf ;  let i=index" class="stay_inline " (click)="setSearchAsTag(word.word)" > 
+       <div class="tifdf_word tag" *ngIf="i<22" (click)="setSearchAsTag()"> {{word.word.toUpperCase()}} </div> 
+       <!-- {{word.word.toUpperCase()}} -->
+     </div>
+   </div>
+
+   <div class="videos">
+    <div class="videoElement" *ngFor="let video of filteredVideos; let i = index">
+      <h2  class="name">{{video.participant_name.toUpperCase()}} </h2>
+      <h3> {{video.activity.toLowerCase() }}</h3>
+      <iframe #elem [attr.id]="video.id" *ngIf="video.show" class="e2e-iframe-trusted-src" width="640" height="390" [src]="getVideoUrl(video)"></iframe>
+      <!-- <div *ngFor="let sub of video.subs"> {{getMatchingFirst(sub.text)}}</div> -->
+      <!-- <pre style="font-family:arial"> {{getMatchingSub(video.subs).sub}} {{getMatchingSub(video.subs).timecode}}</pre> -->
+      <div class="sub" *ngFor="let sub of getMatchingSubObject(video.subs)" (click)="onSubClicked(sub.timecode, video,i)"> [...] {{sub.text}} </div><br><br>
+      
+  <!--     <div *ngFor="let sub of video.subs">
+      	<span >{{sub.text}}</span> 
+      </div> -->
+    </div>
+  </div>
+
+</mat-tab>
+<mat-tab label="THEMES">
+  <h2>explore themes in our co-production videos</h2>
+    <br>
+    <br>
+  <div  *ngFor="let word of mapData ;  let i=index" class="stay_inline " (click)="getVideoForTitle(word.vimeoID,word.time)" > 
+      
+    <div class="tifdf_word tag" *ngIf="i<22" > {{word.title.toUpperCase()}} </div> 
+
+    
+
+
+  </div>
+  <br><br>
+  <iframe #elem [attr.id]="" *ngIf="showVideo" class="e2e-iframe-trusted-src" width="70%" height="600px"  [src]="getCurrentVideoURL()"></iframe>
+
+</mat-tab>
+
+<mat-tab label="VIDEOS">
+  <h2>watch the short films made with participants to our research project</h2>
+<!--   <div class="videos">
+    <div class="videoElement" *ngFor="let video of expandedVideoswq; let i = index">
+
+    <iframe #elem [attr.id]="video.id" class="e2e-iframe-trusted-src" width="640" height="390" [src]="getVideoUrl(video)"></iframe>
+
+    </div>
+  </div> -->
+<iframe src="https://vimeo.com/album/5262750/embed" width="70%" height="600px" allowfullscreen frameborder="0"></iframe>
+</mat-tab>
+<mat-tab label="PHOTOS">
+  <div id="photos_container">
+    <div *ngFor="let photo of photos" class="photo stay_inline">
+
+      <!-- img{{photo.title}} -->
+      <img style="height:300px"  class="photo" [src]="photo.url">
+    </div>
+  </div>
+
+</mat-tab>
+
+<mat-tab label="MAPS">
+  <h2>explore the Walls through our interactive maps</h2>
+
+   
+  <div  *ngFor="let map of mapStories ;  let i=index" class="stay_inline " (click)="setActiveMap(map.url)" > 
+      
+    <div class="tifdf_word tag" *ngIf="i<22" > {{map.title.toUpperCase()}} </div> 
+
+    
+
+
+  </div>
+   <br>
+    <br>
+  <!-- <iframe style='width:100%; height:800px' src="https://arcg.is/151SGO"></iframe> -->
+  <iframe *ngIf="showMap" #elem [attr.id]="1" class="e2e-iframe-trusted-src" width="100%" height="800px" [src]="getCurrentMapURL()"></iframe>
+
+</mat-tab>
+</mat-tab-group>
+

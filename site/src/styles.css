@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html{
+	background-color: white ;
+	color: black;
+	font-family: 'Titillium Web', sans-serif;
+
+}
+p{
+    background-color: white ;
+    color: black;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+a:link {
+    text-decoration: none;
+    color:black	;
+}
+
+a:visited {
+    text-decoration: none;
+    color:black	;
+}
+
+a:hover {
+    text-decoration: none;
+    color:DarkCyan 	;
+    /*font-weight:bold;*/
+}
+
+a:active {
+    text-decoration: none;
+    color:black	;
+}
+
+h1 {
+  	font-size: 250%;
+}
+
+
+h2 {
+  	font-size: 150%;
+}
+
+.stay_inline{
+	margin: 0px,auto;
+	display: inline-block;
+	vertical-align: top;
+}

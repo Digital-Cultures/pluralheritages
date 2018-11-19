@@ -1,0 +1,538 @@
+[
+  {
+    "word": "used",
+    "tfidf_score": 0.0482418151324
+  },
+  {
+    "word": "sounds",
+    "tfidf_score": 0.0452267016867
+  },
+  {
+    "word": "horse",
+    "tfidf_score": 0.0211057941204
+  },
+  {
+    "word": "drawn",
+    "tfidf_score": 0.0180906806747
+  },
+  {
+    "word": "postman",
+    "tfidf_score": 0.0180906806747
+  },
+  {
+    "word": "carriages",
+    "tfidf_score": 0.0150755672289
+  },
+  {
+    "word": "chant",
+    "tfidf_score": 0.0150755672289
+  },
+  {
+    "word": "day",
+    "tfidf_score": 0.0120604537831
+  },
+  {
+    "word": "hindi",
+    "tfidf_score": 0.0120604537831
+  },
+  {
+    "word": "goldfinch",
+    "tfidf_score": 0.0120604537831
+  },
+  {
+    "word": "coming",
+    "tfidf_score": 0.0120604537831
+  },
+  {
+    "word": "uncle",
+    "tfidf_score": 0.0120604537831
+  },
+  {
+    "word": "brahim",
+    "tfidf_score": 0.0120604537831
+  },
+  {
+    "word": "childhood",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "kids",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "baba",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "hey",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "yallah",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "neighborhood",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "spent",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "time",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "dad",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "sing",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "goldfinches",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "wish",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "yogurt",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "pedlar",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "bell",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "jingle",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "knew",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "holiday",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "mornings",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "days",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "ride",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "like",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "long",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "times",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "best",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "bring",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "birdcage",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "brought",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "trees",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "forget",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "street",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "tell",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "pedlars",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "pole",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "wicker",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "hung",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "hand",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "sweet",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "tastes",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "example",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "ramadan",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "second",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "gather",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "carriage",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "decorated",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "upward",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "road",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "group",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "shouted",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "bindi",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "arabadan",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "indi",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "things",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "edirnekap",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "come",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "remember",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "wonderful",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "friends",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "especially",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "father",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "places",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "kid",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "pet",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "ground",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "wild",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "stay",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "hours",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "vehicle",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "exhaust",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "car",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "honking",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "nightingale",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "course",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "neighbors",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "horses",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "tethered",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "said",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "nightingales",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "aspects",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "talk",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "carried",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "shoulders",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "tray",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "end",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "placed",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "containers",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "trays",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "held",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "hands",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "walked",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "ring",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "went",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "sound",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "delivered",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "mail",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "years",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "arrived",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "children",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "saw",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "rhyme",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "look",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "saluting",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "everybody",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "watches",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "wonders",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "way",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "entered",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "watermelon",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "honey",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "melons",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "sugar",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "watermelons",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "atmosphere",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "products",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "barrows",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "baskets",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "backs",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "shopping",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "people",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "live",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "experience",
+    "tfidf_score": 0.00301511344578
+  }
+]
