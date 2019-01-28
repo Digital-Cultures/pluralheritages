@@ -1,0 +1,274 @@
+[
+  {
+    "word": "tren",
+    "tfidf_score": 0.0482418151324
+  },
+  {
+    "word": "Rumlar",
+    "tfidf_score": 0.0211057941204
+  },
+  {
+    "word": "Ermeniler",
+    "tfidf_score": 0.0180906806747
+  },
+  {
+    "word": "yıkım",
+    "tfidf_score": 0.0180906806747
+  },
+  {
+    "word": "Imrahor",
+    "tfidf_score": 0.0150755672289
+  },
+  {
+    "word": "Altınkapı",
+    "tfidf_score": 0.0120604537831
+  },
+  {
+    "word": "Yedikule",
+    "tfidf_score": 0.0120604537831
+  },
+  {
+    "word": "Bizans",
+    "tfidf_score": 0.0120604537831
+  },
+  {
+    "word": "mezarlıklar",
+    "tfidf_score": 0.0120604537831
+  },
+  {
+    "word": "yeniçeriler",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "yatır",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "hendek",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "Karagümrük",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "çocukluk",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "futbol",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "Kariye",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "1453",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "Edirnekapı",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "Konstantin",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "Safa Meyhanesi",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "nostalji",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "bostan",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "cami",
+    "tfidf_score": 0.00904534033733
+  },
+  {
+    "word": "Arnavut",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "gazino",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "ahşap",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "şehitler",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "atlar",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "Sulukule",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "Roman",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "kilise",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "bahçeler",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "otopark",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "ahır",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "manastır",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "güvercin",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "düğünler",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "Malkoçoğlu",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "bayramlar",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "Sulukuleliler",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "tarih",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "toplar",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "türbe",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "komşuluk",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "Eğrikapı",
+    "tfidf_score": 0.00603022689156
+  },
+  {
+    "word": "Osmanlı",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "kale",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "gecekondu",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "aidiyet",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "sesler",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "Zeytinburnu",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "Samatya",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "Narlıkapı",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "koku",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "marul",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "sınır",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "göçmen",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "Suriyeli",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "İstanbul",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "Cumhuriyet",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "savaş",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "müdahale",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "restorasyon",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "mağara",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "duvar",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "halk",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "apartman",
+    "tfidf_score": 0.00301511344578
+  },
+  {
+    "word": "hafıza",
+    "tfidf_score": 0.00301511344578
+  }
+]

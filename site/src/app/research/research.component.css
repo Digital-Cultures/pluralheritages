@@ -16,3 +16,7 @@
 	padding-bottom: 5px;
 	cursor: pointer;
 }
+.tag:hover{
+	background-color: DarkCyan;
+	color:white;
+}

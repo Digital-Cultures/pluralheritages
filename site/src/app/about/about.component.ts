@@ -1,5 +1,8 @@
 import { Component, OnInit, Input} from '@angular/core';
 import { LanguageService } from '../language.service';
+import { IsMobileService } from '../is-mobile.service';
+
+
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
@@ -7,7 +10,7 @@ import { LanguageService } from '../language.service';
 })
 export class AboutComponent implements OnInit {
 	 
-  constructor(public languageService: LanguageService) { }
+  constructor(private isMobileService: IsMobileService,public languageService: LanguageService) { }
   lang="";
 
   ngOnInit() {
@@ -18,4 +21,7 @@ export class AboutComponent implements OnInit {
   getLanguage(): void {
   this.lang = this.languageService.getLanguage();
 	}
+  getIsMobile(){
+    return this.isMobileService.getIsMobile();
+  }
 }

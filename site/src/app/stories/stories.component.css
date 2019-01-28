@@ -1,8 +1,9 @@
 .videos{
-	width:80%;
+	width:98%;
 	margin: 0 auto;
 	border-top: 2px solid;
 	position: relative;
+	padding-bottom: 40px;
 }
 .sub:hover{
 	background-color:DarkCyan ;
@@ -56,5 +57,5 @@
 }
 #photos_container{
 	position: relative;
-	width: 90%;
+	width: 100%;
 }

@@ -1,6 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
-
+button{
+    /*border-radius: 5px;*/
+}
 html{
 	background-color: white ;
 	color: black;
@@ -8,6 +10,20 @@ html{
 
 }
 p{
+    background-color: white ;
+    color: black;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+.mobile_width{
+    width: 100%;
+}
+.desktop_width{
+    width: 70%;
+}
+
+ol{
     background-color: white ;
     color: black;
     font-family: 'Titillium Web', sans-serif;

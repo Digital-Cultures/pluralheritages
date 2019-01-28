@@ -15,7 +15,7 @@ export class FlickrService {
 
     getResult(query: string) {
         //console.log(query)
-        let url = 'https://api.flickr.com/services/rest/?method=flickr.people.getPhotos&api_key=xxxx&user_id=137179301@N08&format=json&nojsoncallback=1';
+        let url = 'https://api.flickr.com/services/rest/?method=flickr.people.getPhotos&api_key=APIKEYHERE_id=137179301@N08&format=json&nojsoncallback=1';
         return this.http
             .get(url).pipe(
             map(res => res),

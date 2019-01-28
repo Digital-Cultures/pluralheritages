@@ -1,4 +1,4 @@
-<div style="margin: 0 auto; width:70%; text-align:left" [hidden]="languageService.getLanguage()=='TR'">
+<div style="margin: 0 auto;  text-align:center" [ngClass]="(getIsMobile()==true)?'mobile_width':'desktop_width'" [hidden]="languageService.getLanguage()=='TR'">
  	<div> Our project worked with inhabitants of Istanbul whose lives are connected to the Land Walls. We developed a series of short films with professional film makers and local residents and used these as the basis of a free smartphone app for iOS and Android platforms. The apps take the videos and embeded them, digitally in the city weaving people's stories into new experiences of public space.</div>
  	<div class="stay_inline">
  		<h2>Android</h2>
@@ -22,6 +22,24 @@
 </div>
 
 
-<div style="margin: 0 auto; width:70%; text-align:left" [hidden]="languageService.getLanguage()=='EN'">
-  TURKISH TEXT HERE
+<div style="margin: 0 auto; text-align:center" [ngClass]="(getIsMobile()==true)?'mobile_width':'desktop_width'" [hidden]="languageService.getLanguage()=='EN'">
+  <div>Projemizde, yaşamları Kara Surları ile ilişkili olan İstanbul sakinleriyle birlikte çalıştık. Profesyonel film yapımcıları ve mahalle sakinleri ile bir dizi kısa filmler çektik ve bunları iOS ve Android platformları için ücretsiz bir akıllı telefon uygulamasının temeli olarak kullandık. Geliştirdiğimiz bu yeni uygulamada mahalle sakinleriyle birlikte ürettiğimiz bu videolar, araştırma sırasında kendi mahallelerinde bizleri gezdirdikleri güzergahlar üzerine yerleştirilmiştir. Böylece Kara Surları çevresindeki ‘yaşayan’ kültürel mirası keşfetmek isteyenler, mahalle sakinlerinin anlatılarına ve öykülerine ‘yerinde’ erişebilecek ve kamusal alanla ilgili yeni deneyimler elde edeceklerdir.</div>
+  <div class="stay_inline">
+ 		<h2>Android</h2>
+ 		<a href='https://play.google.com/store/apps/details?id=co.uk.danfs.testApp'>
+ 			<img src="assets/images/app_icon.png" alt="app icon"width="80%">
+ 			
+ 		</a>
+<!-- <img style='width:30%' src='' alt='app icon'></img> -->
+
+ 	</div>
+ 	<div class="stay_inline">
+ 		<h2>iOS</h2>
+ 		<a href='https://play.google.com/store/apps/details?id=co.uk.danfs.testApp'>
+ 			<img src="assets/images/app_icon.png" alt="app icon"width="80%">
+ 			
+ 		</a>
+<!-- <img style='width:30%' src='' alt='app icon'></img> -->
+
+ 	</div>
 </div>

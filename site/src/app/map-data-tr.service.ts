@@ -5,17 +5,16 @@ import { catchError, map, tap } from 'rxjs/operators';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Injectable()
-export class GtrService {
+export class MapDataTrService {
 	//private tfidfUrl = 'http://localhost:8888/angular_2/subtitle_tfidf.json';  // URL to web api
-private mendeleyDataUrl = 'https://gtr.ukri.org/gtr/api/projects/D76EAC9E-8A08-4AD8-89E4-0BD0A1F4F171/outcomes/publications';
+private mapDataUrl = 'assets/data/combined_maps_tr.json';
+
   constructor(private http: HttpClient) { }
-	getMendeleyData(): Observable<any[]> {
+	getMapData(): Observable<any[]> {
 
-		let headers = new HttpHeaders().set('Accept', 'application/vnd.rcuk.gtr.json-v6');
-
-	    return this.http.get<any[]>(this.mendeleyDataUrl, { headers: headers })
+	    return this.http.get<any[]>(this.mapDataUrl)
 	    .pipe(
-	        catchError(this.handleError('getMendeley', []))
+	        catchError(this.handleError('getVideos', []))
 	        );
 	}
 

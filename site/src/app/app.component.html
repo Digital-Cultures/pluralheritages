@@ -1,47 +1,115 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div id="container" style="text-align:center">
+<div id="container" style="text-align:center" [hidden]="getIsMobile()==true">
 	<div id="title_container" >
-		<div id="link_bar" class="stay_inline">
-			<nav>
+		<div id="link_bar" class="stay_inline" >
+			<nav [hidden]="getLanguage()=='TR'">
 				<a routerLink="/about">ABOUT</a><br>
 				<a routerLink="/stories">STORIES</a><br>
 				<a routerLink="/research">RESEARCH</a><br>
-				<!-- <a routerLink="/photos">PHOTOS</a><br> -->
-				<!-- <a routerLink="/team">TEAM</a><br> -->
 				<a routerLink="/apps">APPS</a>
 			</nav>
 
+			<nav [hidden]="getLanguage()=='EN'">
+				<a routerLink="/about">HAKKINDA</a><br>
+				<a routerLink="/stories">HİKAYELER</a><br>
+				<a routerLink="/research">ARAŞTIRMA</a><br>
+				<a routerLink="/apps">MOBİL UYGULAMALAR</a>
+			</nav>
+
 		</div>
-		<div class="stay_inline">
-		 <h1 >
-		   Plural Heritages of Istanbul:
-		 </h1>
-		 <h2>
-		 	the Case of the Land Walls
-		 </h2>
-		 <!-- <h1>{{lang}}</h1> -->
+		<div class="stay_inline" style="width:60%" >
+			<h1 >
+				<a href="/about" [hidden]="getLanguage()=='TR'">Plural Heritages of Istanbul:</a>
+			</h1>
+			<h2>
+				<a href="/about" [hidden]="getLanguage()=='TR'">the Case of the Land Walls</a>
+			</h2>
 
-		 </div>
 
-		 <div id="language_chooser">
-		 	<button (click)="onClickEN()">EN</button>
-		 	<button (click)="onClickTR()">TR</button>
-		 </div>
-		 
+			<h1 >
+				<a href="/about" [hidden]="getLanguage()=='EN'">İ̇stanbul’un Dünya Mi̇ras Alanlarını Çoklu Perspekti̇ften Yorumlamak:</a>
+			</h1>
+			<h2>
+				<a href="/about" [hidden]="getLanguage()=='EN'">İSTANBUL KARA SURLARI ÖRNE<span style="font-family: 'Staatliches', cursive;">Ğİ</span></a>
+			</h2>
+
+
+
+		</div>
+
+		<div id="language_chooser">
+			<button (click)="onClickEN()">EN</button>
+			<button (click)="onClickTR()">TR</button>
+		</div>
+
+
+		<router-outlet *ngIf="getIsMobile()==false"></router-outlet>
+		<div style="height:50px"></div>
+
+		<div id="logos" style="text-align: left;"  [hidden]="getIsMobile()==true">
+			<div id="logo_float">
+				<img class="logo" src= "assets/images/logos/ncl_logo.jpg" />
+				<img class="logo" src= "assets/images/logos/ahrc_logo.png" />
+				<img class="logo" src= "assets/images/logos/bilgi.png" />
+				<img class="logo" src= "assets/images/logos/newton.png" />
+				<img class="logo" src= "assets/images/logos/uludag.png" />
+
+			</div>
+
+		</div> 
 	</div>
-
-
-	<router-outlet></router-outlet>
-
-	<div id="logos">
-		<img src= "assets/images/logos/ncl_logo.jpg" /><br>
-		<img src= "assets/images/logos/ahrc_logo.png" />
-
-	</div> 
-   <!-- <app-videos></app-videos> -->
-
-    <!-- <app-about [childMessage]="parentMessage"></app-about> -->
-  
 </div>
 
- 
+<!-- MOBILE -->
+<!--The content below is only a placeholder and can be replaced.-->
+<div id="container_mobile" style="text-align:center" [hidden]="getIsMobile()==false">
+	<div id="title_container_mobile" >
+		<div id="link_bar_mobile" class="stay_inline" >
+			<nav [hidden]="getLanguage()=='TR'">
+				<a class="mobile_link" routerLink="/about">ABOUT</a>
+				<a class="mobile_link" routerLink="/stories">STORIES</a>
+				<a class="mobile_link" routerLink="/research">RESEARCH</a>
+
+				<a class="mobile_link" routerLink="/apps">APPS</a>
+			</nav>
+
+			<nav [hidden]="getLanguage()=='EN'">
+				<a class="mobile_link" routerLink="/about">HAKKINDA</a>
+				<a class="mobile_link" routerLink="/stories">HİKAYELER</a>
+				<a class="mobile_link" routerLink="/research">ARAŞTIRMA</a>
+				<a class="mobile_link" routerLink="/apps">MOBİL UYGULAMALAR</a>
+			</nav>
+
+		</div>
+		<div class="stay_inline" style="width:100%; text-align: center"  >
+			<h1 class="mobile_h1">
+				<a href="/about" [hidden]="getLanguage()=='TR'">Plural Heritages of Istanbul:</a>
+			</h1>
+			<h2 class="mobile_h2">
+				<a href="/about" [hidden]="getLanguage()=='TR'">the Case of the Land Walls</a>
+			</h2>
+
+
+			<h1 class="mobile_h1">
+				<a href="/about" [hidden]="getLanguage()=='EN'">İ̇stanbul’un Dünya Mi̇ras Alanlarını Çoklu Perspekti̇ften Yorumlamak:</a>
+			</h1>
+			<h2 class="mobile_h2">
+				<a href="/about" [hidden]="getLanguage()=='EN'">İSTANBUL KARA SURLARI ÖRNE<span style="font-family: 'Staatliches', cursive;">Ğİ</span></a>
+			</h2>
+
+
+
+		</div>
+
+		<div id="language_chooser_mobile" >
+			<button (click)="onClickEN()">EN</button>
+			<button (click)="onClickTR()">TR</button>
+		</div>
+
+
+		<router-outlet *ngIf="getIsMobile()==true"></router-outlet>
+
+		
+	</div>
+</div>
+
