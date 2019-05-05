@@ -130,8 +130,8 @@
 
   <mat-tab-group md-stretch-tabs="always">
     <mat-tab label="ARAMA">
-      <h2>birlikte üretim videolarında aşağıdaki kelimeleri aarayabilirsiniz</h2>
-      <p>Arama altyazılardaki tüm metni içerecektir. Çıkan sonuçlardan aalıntıları görebilir ve ilgili bölümü izlemek için tıklayabilirsiniz.</p>
+      <h2>birlikte üretim videolarında aşağıdaki kelimeleri arayabilirsiniz</h2>
+      <p>‘Birlikte üretim’ yöntemiyle çektiğimiz tüm videolar arasında merak ettiğiniz herhangi bir konuda arama yapabilmek için aşağıdaki kutuya konuyla ilgili sözcükleri girebilirsiniz. Arama sırasında tüm altyazı metinleri taranmaktadır, ve ilgili sözcüğü geçtiği video bölümleri listelenmektedir. Bu video bölümlerine tıklayarak katılımcıların aradığınız sözcükle ilgili neler anlattıklarını öğrenebilirsiniz.</p>
       <label id="searchArea">video arama:
         <input #myInput [(ngModel)]="searchterm" (ngModelChange)="navigate($event)" >
       </label>
@@ -182,7 +182,7 @@
 
 </mat-tab>
 
-<mat-tab label="VIDEOLAR">
+<mat-tab label="VİDEOLAR">
   <h2>­katılımcılarla çektiğimiz kısa videoları izleyin</h2>
   <p style="margin-bottom:130px">
     Projemizin bir başka önemli çıktısı da mahalle sakinleriyle ürettiğimiz otuzdan fazla kısa video. Video çekimleri sırasında araştırma ekibimiz yaratıcı bazı teknikler kullanarak katılımcılardan, örneğin, geçmişe ait kaybolan sesler varsa bunları anlatmalarını ya da Surları bir canlı yerine koyarak onlara bir mektup yazmalarını istedi. Video çekimlerini bu şekilde kurgulamadaki amacımız geçmişle ilgili düşsel, spekülatif ve kişisel bazı hikayelerin ortaya çıkmasını sağlamaktı.<br><br>
@@ -227,7 +227,7 @@
 </mat-tab>
 
 <mat-tab label="HARİTALAR">
-  <h2>İnteraktif haritalarımız aracılığıyla Surları keşfedin</h2>
+  <h2>Etkileşimli haritalarımızla Surları keşfedin:</h2>
 
 
   <div  *ngFor="let map of mapStories ;  let i=index" class="stay_inline " (click)="setActiveMap(map.url)" > 
